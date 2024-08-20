@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music World Cup</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Music World Cup</h1>
+    </header>
+
+    <main>
+        <section id="submission">
+            <h2>Submit a Song</h2>
+            <form id="song-form">
+                <label for="song-url">YouTube/SoundCloud URL:</label>
+                <input type="url" id="song-url" required>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="bracket">
+            <h2>Current Bracket</h2>
+            <div id="bracket-content">No songs submitted yet.</div>
+        </section>
+
+        <section id="voting">
+            <h2>Vote</h2>
+            <div id="vote-content">No songs to vote on.</div>
+        </section>
+    </main>
+
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
